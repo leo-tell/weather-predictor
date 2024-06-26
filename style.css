@@ -1,0 +1,67 @@
+/* Estilo para todo o corpo da página */
+body {
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: linear-gradient(135deg, #72EDF2 10%, #5151E5 100%);
+    color: #333;
+}
+
+/* Estilo do contêiner principal */
+.container {
+    text-align: center;
+    background: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.2);
+    width: 100%;
+    max-width: 400px;
+}
+
+/* Estilo da imagem/ícone */
+.icon {
+    width: 100px;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+/* Estilo dos elementos de entrada e botão */
+input, button {
+    padding: 10px;
+    margin: 10px 0;
+    width: 100%;
+    max-width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Estilo do botão */
+button {
+    background-color: #5151E5;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #3333CC;
+}
+
+/* Estilo das informações do clima */
+#weatherInfo {
+    margin-top: 20px;
+}
+
+#weatherInfo img {
+    width: 50px;
+    height: 50px;
+}
+
+/* Estilo da mensagem de erro */
+.error-message {
+    color: red;
+    margin-top: 20px;
+}

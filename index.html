@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="icon_weather.png" type="image/x-icon">
+</head>
+<body>
+    <div class="container">
+        <img src="banner.png" alt="Ícone do Clima" class="icon">
+        <h1>Previsão do Tempo</h1>
+        <input type="text" id="cityInput" placeholder="Digite o nome da cidade">
+        <button id="searchButton">Obter Previsão</button>
+        <div id="weatherInfo">
+            <!-- Informações sobre o clima serão exibidas aqui -->
+        </div>
+        <div id="errorMessage" class="error-message"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
